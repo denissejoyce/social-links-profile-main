@@ -1,0 +1,8 @@
+@use "../util/" as *;
+
+body {
+  //   background-color: #77a1d3;
+  background-image: $background;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
