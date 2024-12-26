@@ -1,0 +1,20 @@
+@use "../util/" as *;
+
+.profile {
+  .bio {
+    @include toFlex(column-reverse);
+    div {
+      @include toFlex();
+    }
+  }
+
+  background-color: $card;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 30px;
+
+  @include toFlex();
+  @include breakpoint(medium) {
+  }
+}

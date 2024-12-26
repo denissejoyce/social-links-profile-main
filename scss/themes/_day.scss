@@ -1,0 +1,45 @@
+@use "../util/" as *;
+
+// DAY MODE
+.bg--day {
+  background: $background-day;
+}
+
+.toggler--day {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  background: none;
+  border: none;
+  height: 25px;
+
+  &__icon {
+    fill: $highlight-night;
+    height: 25px;
+  }
+
+  &__icon:hover {
+    cursor: pointer;
+    fill: $white;
+  }
+}
+
+.profile--day {
+  color: $highlight-night;
+}
+
+.bio__loc--day {
+  color: $white;
+}
+
+.links__btn:hover {
+  background-color: $white;
+  box-shadow: 0.5px 0.5px 40px rgba(255, 255, 255, 0.327);
+}
+// END OF DAY MODE
+
+// NIGHT MODE
+.bg--night {
+  background: $background-night;
+}
+// END OF NIGHT MODE

@@ -1,0 +1,29 @@
+@use "../util/" as *;
+
+.toggler {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  background: none;
+  border: none;
+  height: 25px;
+}
+
+// .toggler--night {
+//   position: absolute;
+//   right: 3%;
+//   top: 3%;
+//   background: none;
+//   border: none;
+//   height: 25px;
+
+//   &__icon {
+//     fill: $white;
+//     height: 25px;
+//   }
+
+//   &__icon:hover {
+//     cursor: pointer;
+//     fill: $highlight-day;
+//   }
+// }

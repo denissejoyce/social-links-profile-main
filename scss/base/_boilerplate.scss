@@ -1,8 +1,14 @@
 @use "../util/" as *;
 
-body {
-  //   background-color: #77a1d3;
-  background-image: $background;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+// * {
+//   transition: all ease 0.25s;
+// }
+
+.bg {
+  @include animateBg();
+  @include toFlex();
+
+  background-size: 200% 200%;
+  height: 100vh;
+  overflow: hidden;
 }

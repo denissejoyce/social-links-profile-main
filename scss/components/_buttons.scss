@@ -1,0 +1,18 @@
+@use "../util/" as *;
+
+.links {
+  @include toFlex(column-reverse, 15px);
+  width: 100%;
+
+  &__btn {
+    background-color: $card;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    transition: all ease 1s;
+    width: 100%;
+    padding: 10px 0;
+  }
+}

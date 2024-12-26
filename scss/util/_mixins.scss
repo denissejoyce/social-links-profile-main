@@ -1,0 +1,23 @@
+@mixin animateBg {
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@mixin toFlex($direction: column, $gap: 10px) {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: $direction;
+  row-gap: $gap;
+}
