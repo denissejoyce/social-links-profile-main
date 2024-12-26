@@ -1,9 +1,6 @@
 @use "../util/" as *;
 
 // DAY MODE
-.bg--day {
-  background: $background-day;
-}
 
 .toggler--day {
   position: absolute;
@@ -24,7 +21,12 @@
   }
 }
 
-.profile--day {
+// .bg--day {
+//   background: $background-day;
+// }
+
+.profile--day,
+.links__btn {
   color: $highlight-night;
 }
 
@@ -39,6 +41,7 @@
 // END OF DAY MODE
 
 // NIGHT MODE
+
 .bg--night {
   background: $background-night;
 }
