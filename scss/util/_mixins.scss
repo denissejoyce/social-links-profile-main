@@ -1,5 +1,5 @@
 @mixin animateBg {
-  animation: gradient 25s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -20,4 +20,18 @@
   display: flex;
   flex-direction: $direction;
   row-gap: $gap;
+}
+
+@mixin animatePress {
+  animation: press 1.5s ease;
+  @keyframes press {
+    0% {
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
 }

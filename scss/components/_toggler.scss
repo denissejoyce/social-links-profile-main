@@ -9,21 +9,27 @@
   height: 25px;
 }
 
-// .toggler--night {
+// .toggler,
+// .icon {
 //   position: absolute;
 //   right: 3%;
 //   top: 3%;
 //   background: none;
 //   border: none;
 //   height: 25px;
-
-//   &__icon {
-//     fill: $white;
-//     height: 25px;
-//   }
-
-//   &__icon:hover {
-//     cursor: pointer;
-//     fill: $highlight-day;
-//   }
 // }
+
+.icon {
+  // position: absolute;
+  height: 25px;
+  // width: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  fill: $white;
+}
+
+.invisible {
+  visibility: hidden;
+}

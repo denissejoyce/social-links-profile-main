@@ -1,5 +1,41 @@
 @use "../util/" as *;
 
 .bg--night {
+  @include animateBg();
   background: $background-night;
+  background-size: 200% 200%;
+
+  .profile,
+  .links__btn {
+    color: $white;
+  }
+
+  .links__btn:hover {
+    background-color: $hover-dark;
+    box-shadow: 0.5px 0.5px 50px rgb(83, 69, 133);
+  }
 }
+
+.bg--night .bio__loc {
+  color: $highlight-day;
+}
+
+.icon--night {
+  fill: $highlight-day;
+  z-index: 0;
+  // height: 25px;
+}
+
+// .icon--night:hover {
+//   cursor: pointer;
+//   fill: $white;
+// }
+
+// .bio__loc {
+//   color: $highlight-night;
+// }
+
+// .profile--night,
+// .links__btn {
+//   color: $white;
+// }

@@ -5,10 +5,7 @@
 // }
 
 body {
-  @include animateBg();
   @include toFlex();
-  background: $background-day;
-  background-size: 200% 200%;
   height: 100vh;
   overflow: hidden;
 }
