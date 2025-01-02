@@ -5,8 +5,13 @@
   background: $background-day;
   background-size: 200% 200%;
 
+  .bio__loc {
+    color: $white;
+  }
+
   .profile,
-  .links__btn {
+  .links__btn,
+  .mode {
     color: $highlight-night;
   }
 
@@ -18,11 +23,8 @@
   .links__btn:active {
     background-color: $white;
   }
-}
 
-.icon--day {
-  fill: $highlight-night;
-  z-index: 1;
+  .toggler:hover {
+    text-decoration: underline overline $highlight-night;
+  }
 }
-
-// END OF DAY MODE

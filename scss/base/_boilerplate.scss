@@ -1,8 +1,8 @@
 @use "../util/" as *;
 
-// * {
-//   transition: all ease 0.25s;
-// }
+* {
+  transition: all ease 0.15s;
+}
 
 body {
   @include toFlex();

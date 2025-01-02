@@ -1,13 +1,13 @@
 @use "../util/" as *;
 
-.profile {
-  //   color: $user-name;
+.profile,
+.mode {
   font-family: "Inter", serif;
-  font-size: 14px;
+  // font-size: 0.875rem;
+  font-size: clamp(0.75rem, 3.733vw, 0.938rem);
   text-align: center;
 
   .bio__loc {
-    color: $white;
     font-weight: 700;
   }
   .links__btn {
